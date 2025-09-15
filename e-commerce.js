@@ -1,3 +1,4 @@
+
          
 const dropdown= document.querySelector('.dropdown');
 
@@ -107,4 +108,5 @@ let amount = 0
       else{alert('section not found')}
     }
 
-function purchase(){alert(`purchasing ${cartq} item, at ${amount}`)}
+
+         
