@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <title>
+       shoe zone
+     </title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+
+        <link rel="stylesheet" href ="e-commerce.css">
+
+     </head>
+    
+     <body>
+          <!--search bar-->
+           <div>
+            <form>
+               <textarea rows="1" cols="50" id="search" placeholder="search"></textarea>
+               
+               <button class="sb" onclick="jump()">search</button>
+            </form>
+           </div>
+          <div class="dropcont" onclick="show()">
+
+             <!--dropdown-->
+    <div class="drop">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div></div>
+
+     <div class="dropdown">
+        <a href="">PROFILE</a>
+        <a href="">WALLET</a>
+        <a href="">SOCIALS</a>
+        <br><br><br><br><br>
+
+    </div>
+    
+
+
+ <!--images-->
+        <img src="IMG_4357.PNG" class="firstimg"><img src="IMG_E4379.JPG" class="secimg">
+
+
+       <!--button container-->
+        <div class="buttoncont">
+            <span class="nike" onclick="nik()">NIKE</span>
+            <span class="vans"  onclick="van()">VANS</span>
+            
+            <span class="loafers"onclick="loa()">LOAFERS</span> 
+            <span class="balanciaga"  onclick="bal()">BALANCIAGA</span>
+        </div>
+        <p class="sel">select a brand!</p>
+
+        <div id="nike" >
+            <span><img src="n1.JPG" class="n1"><br>
+               
+
+               <!--items, prices, buttons-->
+               <p class="t"  onclick="additem() ;price(50000)">50,000 add to cart</p></span>
+
+            <span><img src="n2.JPG" class="n2"><br>
+               <p class="t" onclick="additem() ;price(55000)">55,000 add to cart</p></span>
+
+            <span><img src="n3.JPG" class="n3"><br>
+               <p class="t"  onclick="additem() ;price(40000)">40,000 add to cart</p>   
+         </span></div>
+
+        <div id="nset2">
+
+            <span><img src="n4.JPG"  class="n4"><br>
+               <p class="t" onclick="additem() ;price(50000)">50,000 add to cart</p>
+            </span>
+            <span><img src="n5.JPG"  class="n5"><br>
+               <p class="t"  onclick="additem() ;price(35000)">35,000 add to cart</p></span>
+
+            <span><img src="n6.JPG" class="n6"><br>
+               <p class="t"  onclick="additem() ;price(48000)">48,000 add to cart</p></span>
+
+
+        </div>
+
+        <div id="vans" >
+            <span><img src="v1.JPG" class="v1"><br>
+               <p class="t" onclick="additem() ;price(50000)">50,000 add to cart</p></span>
+
+            <span><img src="v2.JPG" class="v2"><br>
+               <p class="t"  onclick="additem() ;price(38000)">38,000 add to cart</p></span>
+
+            <span><img src="v3.JPG" class="v3"><br>
+               <p class="t" onclick="additem() ;price(45000)">45,000 add to cart</p></span>
+        </div>
+        
+         <div id="balanciaga" >
+            <span><img src="b1.JPG" class="v1"><br>
+               <p class="t" onclick="additem() ;price(80000)">80,000 add to cart</p></span>
+
+            <span><img src="b2.JPG" class="v2"><br>
+               <p class="t"  onclick="additem() ;price(50000)">50,000 add to cart</p></span>
+
+            <span><img src="b3.JPG" class="v3"><br>
+               <p class="t"  onclick="additem() ;price(60000)">60,000 add to cart</p></span>
+        </div>
+        
+          <div id="loafers"  >
+            <span><img src="l1.JPG" class="v1"><br>
+               <p class="t" onclick="additem() ;price(50000)">50,000 add to cart</p></span>
+
+            <span><img src="l2.JPG" class="v2"><br>
+               <p class="t" onclick="additem() ;price(40000)">40,000 add to cart</p></span>
+
+            <span><img src="l3.JPG" class="v3"><br>
+               <p class="t"  onclick="additem() ;price(58000)">58,000 add to cart</p></span>
+        </div>
+
+
+ <!--checkout-->
+<section class="checkout">
+
+    <p class="cartt">CART:</p>
+
+      <h3>
+         NUMBER OF ITEMS: <p id="no"></p>
+      </h3>
+
+      <h3>
+         AMOUNT:<p id="am"></p>
+      </h3>
+
+      <button class="purchase" onclick="purchase()">PURCHASE</button> 
+ <button onclick="res()" class="reset">RESET</button> 
+</section>
+
+
+ <!--footer-->
+     <footer class="footer">
+      <p class="finaltext">
+         shoezone@inc<BR><BR>
+
+         contact: 
+         AFRICA: 07079646462<BR><BR>
+
+         USA:+1 909 234 4567<BR><BR>
+         
+         EUR: +9 67489304
+      </p>
+
+      <div class="socials">
+ <img src="face.JPG" class="f">
+ <img src="wh.JPG" class="wh">
+ <img src="insta.JPG" class="i">
+
+</div>
+     
+
+     </footer>
+
+        
+
+
+
+
+
+
+
+
+
+     <script  src="e-commerce.js"></script>   
+     </body>
