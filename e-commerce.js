@@ -38,10 +38,20 @@ let amount = 0
                        document.querySelector('#no').innerHTML=`${cartq}`
 
                        amount = 0
-                        document.querySelector('#am').innerHTML=`${amount}`
+                        document.querySelector('#am').innerHTML=`${amount}`}
 
-   }
+   function purchase(){alert(`${cartq} items in cart proceed to checkout`)}
 
+
+   function alert(){const alertBox = document .getElementById("custommessage")
+
+     alertBox.style.display = "flex" 
+   
+   
+   
+     setTimeout(()=>{alertBox.style.display="none"},2000);
+   
+     document.getElementById("custommessage").innerHTML=`${cartq} item added to cart`}
 
 
 

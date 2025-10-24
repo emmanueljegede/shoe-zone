@@ -14,7 +14,13 @@
      </head>
     
      <body>
+        <div class="ls">
+         <div class="log"><a href="loginpage.html" class="loglink">LOGIN</a></div>
+         <div class="sup">SIGN UP</div>
+        </div>
+
           <!--search bar-->
+          <div class="wrap">
            <div>
             <form>
                <textarea rows="1" cols="50" id="search" placeholder="search"></textarea>
@@ -26,9 +32,9 @@
 
              <!--dropdown-->
     <div class="drop">
-        <span></span>
-        <span></span>
-        <span></span>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
     </div></div>
 
      <div class="dropdown">
@@ -42,16 +48,22 @@
 
 
  <!--images-->
-        <img src="IMG_4357.PNG" class="firstimg"><img src="IMG_E4379.JPG" class="secimg">
+      
+        <img src="IMG_E4379.JPG" class="secimg">
 
+   
+       <div class="stext">
+           <span class="shoe"> SHOE </span><br>
+           <span class="zone"> ZONE</span> 
+       </div></div>
 
        <!--button container-->
         <div class="buttoncont">
             <span class="nike" onclick="nik()">NIKE</span>
             <span class="vans"  onclick="van()">VANS</span>
             
-            <span class="loafers"onclick="loa()">LOAFERS</span> 
-            <span class="balanciaga"  onclick="bal()">BALANCIAGA</span>
+            <span class="loafers"onclick="loa()">L-FERS</span> 
+            <span class="balanciaga"  onclick="bal()">CIAGA</span>
         </div>
         <p class="sel">select a brand!</p>
 
@@ -60,79 +72,109 @@
                
 
                <!--items, prices, buttons-->
-               <p class="t"  onclick="additem() ;price(50000)">50,000 add to cart</p></span>
+               <p class="t"  onclick="additem() ;price(50000); alert()">50,000   <div class="stars">⭐⭐⭐⭐⭐</div></p></span>
 
             <span><img src="n2.JPG" class="n2"><br>
-               <p class="t" onclick="additem() ;price(55000)">55,000 add to cart</p></span>
+               <p class="t" onclick="additem() ;price(55000); alert()">55,000   <div class="stars">⭐⭐⭐⭐</div></p></span>
 
             <span><img src="n3.JPG" class="n3"><br>
-               <p class="t"  onclick="additem() ;price(40000)">40,000 add to cart</p>   
+               <p class="t"  onclick="additem() ;price(40000); alert()">40,000   <div class="stars">⭐⭐⭐⭐</div></p>   
          </span></div>
+
+           <div id="custommessage"> </div>
+
 
         <div id="nset2">
 
             <span><img src="n4.JPG"  class="n4"><br>
-               <p class="t" onclick="additem() ;price(50000)">50,000 add to cart</p>
+               <p class="t" onclick="additem() ;price(50000); alert()">50,000   <div class="stars">⭐⭐⭐⭐</div></p>
             </span>
             <span><img src="n5.JPG"  class="n5"><br>
-               <p class="t"  onclick="additem() ;price(35000)">35,000 add to cart</p></span>
+               <p class="t"  onclick="additem() ;price(35000); alert()">35,000   <div class="stars">⭐⭐ ⭐</div></p></span>
 
             <span><img src="n6.JPG" class="n6"><br>
-               <p class="t"  onclick="additem() ;price(48000)">48,000 add to cart</p></span>
+               <p class="t"  onclick="additem() ;price(48000); alert()">48,000   <div class="stars">⭐⭐ ⭐⭐</div></p></span>
 
 
         </div>
 
         <div id="vans" >
             <span><img src="v1.JPG" class="v1"><br>
-               <p class="t" onclick="additem() ;price(50000)">50,000 add to cart</p></span>
+               <p class="t" onclick="additem() ;price(50000); alert()">50,000 <div class="stars">⭐⭐⭐ </div></p></span>
 
             <span><img src="v2.JPG" class="v2"><br>
-               <p class="t"  onclick="additem() ;price(38000)">38,000 add to cart</p></span>
+               <p class="t"  onclick="additem() ;price(38000); alert()">38,000 <div class="stars">⭐⭐⭐⭐</div></p></span>
 
             <span><img src="v3.JPG" class="v3"><br>
-               <p class="t" onclick="additem() ;price(45000)">45,000 add to cart</p></span>
-        </div>
+               <p class="t" onclick="additem() ;price(45000); alert()">45,000 <div class="stars">⭐⭐⭐⭐⭐</div></p></span>
+        
+        
+            </div>
         
          <div id="balanciaga" >
             <span><img src="b1.JPG" class="v1"><br>
-               <p class="t" onclick="additem() ;price(80000)">80,000 add to cart</p></span>
+               <p class="t" onclick="additem() ;price(80000); alert()">80,000 <div class="stars">⭐⭐ ⭐⭐⭐</div></p></span>
 
             <span><img src="b2.JPG" class="v2"><br>
-               <p class="t"  onclick="additem() ;price(50000)">50,000 add to cart</p></span>
+               <p class="t"  onclick="additem() ;price(50000); alert()">50,000 <div class="stars">⭐⭐⭐⭐</div></p></span>
 
             <span><img src="b3.JPG" class="v3"><br>
-               <p class="t"  onclick="additem() ;price(60000)">60,000 add to cart</p></span>
+               <p class="t"  onclick="additem() ;price(60000); alert()">60,000 <div class="stars">⭐⭐⭐⭐</div></p></span>
         </div>
         
           <div id="loafers"  >
             <span><img src="l1.JPG" class="v1"><br>
-               <p class="t" onclick="additem() ;price(50000)">50,000 add to cart</p></span>
+               <p class="t" onclick="additem() ;price(50000); alert()">50,000 <div class="stars">⭐⭐⭐⭐</div></p></span>
 
             <span><img src="l2.JPG" class="v2"><br>
-               <p class="t" onclick="additem() ;price(40000)">40,000 add to cart</p></span>
+               <p class="t" onclick="additem() ;price(40000); alert()">40,000<div class="stars">⭐⭐⭐</div></p></span>
 
             <span><img src="l3.JPG" class="v3"><br>
-               <p class="t"  onclick="additem() ;price(58000)">58,000 add to cart</p></span>
+               <p class="t"  onclick="additem() ;price(58000); alert()">58,000 <div class="stars">⭐⭐⭐ ⭐⭐</div></p></span>
         </div>
 
 
  <!--checkout-->
+
+<img src="IMG_5474.JPG" alt="" class="design">
+
+
+ <p class="cartt">
+   <img src="IMG_5461.PNG" class="cimg">  CART:</p>
+
 <section class="checkout">
 
-    <p class="cartt">CART:</p>
+   
 
       <h3>
-         NUMBER OF ITEMS: <p id="no"></p>
+         NUMBER OF ITEMS: <p id="no">0</p>
       </h3>
 
       <h3>
-         AMOUNT:<p id="am"></p>
+         AMOUNT:<p id="am">-</p>
       </h3>
 
-      <button class="purchase" onclick="purchase()">PURCHASE</button> 
- <button onclick="res()" class="reset">RESET</button> 
+
+      <button class="purchase" onclick="purchase()"><b>PURCHASE</b></button> 
+ <button onclick="res()" class="reset"><b>RESET</b></button> 
+
+
 </section>
+
+<div class="lcont">
+   <span class="lastimg">
+      <h2 class="te">........AFFORDABLE LUXURY</h2>
+      <img src="IMG_5473.JPG" class="one">
+      
+      <img src="IMG_E5475.JPG" class="two">
+  
+   
+   </span>
+   
+   
+
+</div>
+
 
 
  <!--footer-->
