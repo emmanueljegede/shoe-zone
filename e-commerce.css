@@ -471,7 +471,8 @@
             transform: translateY(10px);
             border-radius: 99px;}
 
-      .design{transform: translateY(300px) translateX(350px);       
+      .design{transform: translateY(300px) ;   
+         margin-left: 30%;    
       z-index: 0;
       position: relative;
       border-radius: 33px;
@@ -480,14 +481,16 @@
       opacity: 0.7;
      }
 
-        @media screen and (max-width:600px){.design{transform: translateY(230px) translateX(132px);   
+        @media screen and (max-width:600px){.design{transform: translateY(230px) ;   
          width: 350px;
-         height: 350px;      }}
+         height: 350px; 
+          margin-left: 25%;       }}
 
          @media screen and (max-width:480px){.design{
          width: 320px;
          height: 300px; 
-         transform: translateX(40px) translateY(150px);}}
+         transform: translateY(150px);
+          margin-left: 12%; }}
 
 
       .cartt{transform: translateY(-300px);
