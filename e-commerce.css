@@ -173,7 +173,7 @@
 
 
     .stext{font-size: 90px;
-           font-family:fantasy;
+           font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
            color: transparent;
            -webkit-text-stroke: 1px solid darkolivegreen;
           text-shadow: 1px 0 white,
@@ -491,7 +491,7 @@
 
       .cartt{transform: translateY(-300px);
            font-size: 60px;
-           font-family:fantasy;
+           font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
            color: transparent;
            -webkit-text-stroke: 1px solid darkolivegreen;
             text-shadow: 1px 0 rgb(10, 15, 1),
