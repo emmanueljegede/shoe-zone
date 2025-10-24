@@ -471,13 +471,14 @@
             transform: translateY(10px);
             border-radius: 99px;}
 
-      .design{transform: translateY(300px) translateX(300px);       
+      .design{transform: translateY(300px) translateX(350px);       
       z-index: 0;
       position: relative;
       border-radius: 33px;
       width: 500px;
    height: 350px;  
-      opacity: 0.7; }
+      opacity: 0.7;
+     }
 
         @media screen and (max-width:600px){.design{transform: translateY(230px) translateX(132px);   
          width: 350px;
